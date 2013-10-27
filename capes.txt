@@ -1,6 +1,6 @@
-kwxdevelope=URL
+kwxdevelope=https://raw.github.com/Wehavecookies56/Mod-Source/master/capes/devCape.png
 kwxdeveloper=Ohrm
-kwxdeveloper1=URL
+kwxdeveloper1=https://raw.github.com/Wehavecookies56/Mod-Source/master/capes/devCape.png
 kwxdeveloper1=wehavecookies56
-kwxmanagerguything=URL
+kwxmanagerguything=https://raw.github.com/Wehavecookies56/Mod-Source/master/capes/devCape.png
 kwxmanagerguything=Dragorna
