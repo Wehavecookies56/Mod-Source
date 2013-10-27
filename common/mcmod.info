@@ -1,0 +1,20 @@
+[
+{
+  "modid": "modID",
+  "name": "modID",
+  "description": "",
+  "version": "0.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Wehavecookies56, Xyz567"
+  ],
+  "credits": "Wehavecookies56, Xyz567, Kaan Elva",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

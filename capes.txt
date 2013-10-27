@@ -1,0 +1,6 @@
+kwxdevelope=URL
+kwxdeveloper=Ohrm
+kwxdeveloper1=URL
+kwxdeveloper1=wehavecookies56
+kwxmanagerguything=URL
+kwxmanagerguything=Dragorna

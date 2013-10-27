@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+    <comment>English (en_US) Localization File</comment>
+    <entry key="tile.aeriteOre.name">Aerite Ore</entry>
+    <entry key="item.thermiteItem.name">Thermite Mass</entry>
+    <entry key="item.aetheriumItem.name">Ethereal Smoke</entry>
+    <entry key="tile.magnetiteOre.name">Magnetite Ore</entry>
+    <entry key="tile.sunnariumOre.name">Sunnarium Ore</entry>
+    <entry key="tile.aetheriumOre.name">Etherium Ore</entry>
+    <entry key="tile.thermiteOre.name">Thermite Ore</entry>
+    <entry key="tile.lunariumOre.name">Lunarium Ore</entry>
+    <entry key="tile.territeOre.name">Territe Ore</entry>
+    <entry key="item.magnetiteIngot.name">Magnetite Ingot</entry>
+    <entry key="item.sunnariumIngot.name">Sunnarium Ingot</entry>
+    <entry key="item.lunariumIngot.name">Lunarium Ingot</entry>
+    <entry key="item.territeIngot.name">Territe Ingot</entry>
+    <entry key="tile.Smasher.name">Smasher</entry>
+    <entry key="tile.SmasherActive.name">Smasher Active</entry>
+    <entry key="item.aeriteItem.name">Wind Wisp</entry>
+    <entry key="item.magnetiteMass.name">Magnetite Mass</entry>
+    <entry key="item.territeMass.name">Territe Mass</entry>
+    <entry key="item.lunnariumMass.name">Lunnarium Mass</entry>
+    <entry key="item.sunnariumMass.name">Sunnarium Mass</entry>
+    <entry key="item.silkWorm.name">Silk Worm</entry>
+    <entry key="item.mullberryLeaves.name">Mullberry Leaves</entry>
+    <entry key="tile.mulberryPlant.name">Mullberry Bush</entry>
+    <entry key="item.silk.name">Silk</entry>
+    <entry key="tile.wormBreeder.name">Worm Breeder</entry>
+</properties>
