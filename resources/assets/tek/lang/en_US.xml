@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+    <comment>English (en_US) Localization File</comment>
+    <entry key="tile.copperOre.name">Copper Ore</entry>
+    <entry key="tile.tinOre.name">Tin Ore</entry>
+    <entry key="tile.aluminiumOre.name">Aluminium Ore</entry>
+    <entry key="tile.siliconOre.name">Silicon Ore</entry>
+    <entry key="tile.uraniumOre.name">Uranium Ore</entry>
+    <entry key="tile.titaniumOre.name">Titanium Ore</entry>
+    <entry key="tile.platinumOre.name">Platinum Ore</entry>
+</properties>

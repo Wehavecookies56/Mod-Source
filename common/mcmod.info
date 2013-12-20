@@ -1,15 +1,15 @@
 [
 {
-  "modid": "modID",
-  "name": "modID",
+  "modid": "tek",
+  "name": "Tek",
   "description": "",
   "version": "0.1",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "Wehavecookies56, Xyz567"
+    "Wehavecookies56, Ohrm"
   ],
-  "credits": "Wehavecookies56, Xyz567, Kaan Elva",
+  "credits": "Wehavecookies56, Ohrm, Kaan Elva",
   "logoFile": "",
   "screenshots": [
   ],
