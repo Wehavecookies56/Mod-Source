@@ -10,5 +10,6 @@ public class Strings {
 	public static final String titaniumOre = "titaniumOre";
 	public static final String platinumOre = "platinumOre";
 	public static final String rubberLog = "rubberLog";
-	
+	public static final String rubberLeaves = "rubberLeaves";
+	public static final String rubberSapling = "rubberSapling";
 }

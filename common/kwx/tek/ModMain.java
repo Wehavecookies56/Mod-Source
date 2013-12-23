@@ -31,9 +31,9 @@ import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(name = Reference.MOD_NAME, modid = Reference.MOD_ID, version = Reference.MOD_VER)
+@Mod(name = Reference.MOD_NAME, modid = Reference.MOD_ID, version = Reference.MOD_VER, dependencies = "required-after:kwxCore@[0.0.1]")
 
-@NetworkMod(clientSideRequired = true, serverSideRequired = false, channels = "CHANNEL_NAME", packetHandler = modIDPacketHandler.class)
+@NetworkMod(clientSideRequired = true, serverSideRequired = false, channels = "CHANNEL_NAME", packetHandler = tekPacketHandler.class)
 
 public class ModMain {
 	
@@ -63,7 +63,7 @@ public class ModMain {
 		GameRegistry.registerWorldGenerator(eventManager);
 		NetworkRegistry.instance().registerConnectionHandler(new UpdateHandler("Tek", Reference.MOD_VER, "http://pastebin.com/raw.php?i=8RJgb5FM"));		
 		proxy.registerRenderers();
-
+		
 	}
 	
 	@EventHandler

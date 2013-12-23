@@ -23,7 +23,7 @@ public class UpdateHandler implements IConnectionHandler
 
 	public UpdateHandler(String modName, String currentVersion, String url)
 	{
-		this.modName = modName;
+		this.modName = Reference.MOD_NAME;
 		this.currentVersion = Reference.MOD_VER;
 		this.url = url;
 	}

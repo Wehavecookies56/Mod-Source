@@ -21,6 +21,7 @@ public class ConfigurationHandler {
 		try{
 			config.load();
 			
+			//Ores
 			IDs.copperOre = config.getBlock(Strings.copperOre + " ID", IDs.COPPERORE_DEFAULT).getInt(IDs.COPPERORE_DEFAULT);
 			IDs.tinOre = config.getBlock(Strings.tinOre + " ID", IDs.TINORE_DEFAULT).getInt(IDs.TINORE_DEFAULT);
 			IDs.aluminiumOre = config.getBlock(Strings.aluminiumOre + " ID", IDs.ALUMINIUMORE_DEFAULT).getInt(IDs.ALUMINIUMORE_DEFAULT);
@@ -29,6 +30,11 @@ public class ConfigurationHandler {
 			IDs.titaniumOre = config.getBlock(Strings.titaniumOre + " ID", IDs.TITANIUMORE_DEFUALT).getInt(IDs.TITANIUMORE_DEFUALT);
 			IDs.platinumOre = config.getBlock(Strings.platinumOre + " ID", IDs.PLATINUMORE_DEFUALT).getInt(IDs.PLATINUMORE_DEFUALT);
 		
+			//Rubber tree
+			IDs.rubberLog = config.getBlock(Strings.rubberLog + " ID", IDs.RUBBERLOG_DEFAULT).getInt(IDs.RUBBERLOG_DEFAULT);
+			IDs.rubberLeaves = config.getBlock(Strings.rubberLeaves + " ID", IDs.RUBBERLEAVES_DEFAULT).getInt(IDs.RUBBERLEAVES_DEFAULT);
+			IDs.rubberSapling = config.getBlock(Strings.rubberSapling + " ID", IDs.RUBBERSAPLING_DEFAULT).getInt(IDs.RUBBERSAPLING_DEFAULT);
+			
 		}
 
 		catch(Exception e){

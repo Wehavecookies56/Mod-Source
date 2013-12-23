@@ -9,6 +9,9 @@ import kwx.tek.block.ore.blockSiliconOre;
 import kwx.tek.block.ore.blockTinOre;
 import kwx.tek.block.ore.blockTitaniumOre;
 import kwx.tek.block.ore.blockUraniumOre;
+import kwx.tek.block.rubberTree.blockRubberLeaves;
+import kwx.tek.block.rubberTree.blockRubberLog;
+import kwx.tek.block.rubberTree.blockRubberSapling;
 import kwx.tek.lib.IDs;
 import kwx.tek.lib.Strings;
 import net.minecraft.block.Block;
@@ -47,6 +50,9 @@ public class AddedBlocks {
 		
 		//Rubber tree
 		
+		rubberLog = new blockRubberLog(IDs.rubberLog).setUnlocalizedName(Strings.rubberLog); GameRegistry.registerBlock(rubberLog, Strings.rubberLog);
+		//rubberLeaves = new blockRubberLeaves(IDs.rubberLeaves).setUnlocalizedName(Strings.rubberLeaves); GameRegistry.registerBlock(rubberLeaves, Strings.rubberLeaves);
+		//rubberSapling = new blockRubberSapling(IDs.rubberSapling).setUnlocalizedName(Strings.rubberSapling); GameRegistry.registerBlock(rubberSapling, Strings.rubberSapling);
 		
 	}
 }
