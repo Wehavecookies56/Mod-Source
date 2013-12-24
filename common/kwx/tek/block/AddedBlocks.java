@@ -1,7 +1,7 @@
 package kwx.tek.block;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import kwx.tek.ModMain;
+import kwx.tek.TekMain;
 import kwx.tek.block.ore.blockAluminiumOre;
 import kwx.tek.block.ore.blockCopperOre;
 import kwx.tek.block.ore.blockPlatinumOre;

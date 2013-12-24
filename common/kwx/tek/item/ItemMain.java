@@ -1,6 +1,6 @@
 package kwx.tek.item;
 
-import kwx.tek.ModMain;
+import kwx.tek.TekMain;
 import kwx.tek.lib.Reference;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,7 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class ItemMain extends Item {
     public ItemMain(int id) {
         super(id);
-        this.setCreativeTab(ModMain.kwxCreativeTab);
+        this.setCreativeTab(TekMain.kwxCreativeTab);
     }
     @SideOnly(Side.CLIENT)
     @Override

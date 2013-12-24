@@ -13,7 +13,7 @@ public class tekPacketHandler implements IPacketHandler{
 
 	@Override
 	public void onPacketData(INetworkManager manager, Packet250CustomPayload packet, Player player) {
-		if(packet.channel.equals("tek")){
+		if(packet.channel.equals("Tek")){
 			handlePacket(packet);
 		}
 		

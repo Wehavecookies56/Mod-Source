@@ -5,7 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import java.util.List;
 import java.util.Random;
 
-import kwx.tek.ModMain;
+import kwx.tek.TekMain;
 import kwx.tek.block.AddedBlocks;
 import kwx.tek.lib.Reference;
 
@@ -30,7 +30,7 @@ public class blockRubberLog extends BlockRotatedPillar
     public blockRubberLog(int par1)
     {
         super(par1, Material.wood);
-        this.setCreativeTab(ModMain.kwxCreativeTab);
+        this.setCreativeTab(TekMain.kwxCreativeTab);
         this.setHardness(1.5F);
         this.setResistance(5.0F);
         this.setStepSound(soundWoodFootstep);
@@ -134,8 +134,8 @@ public class blockRubberLog extends BlockRotatedPillar
 
         for (int i = 0; i < this.field_111052_c.length; ++i)
         {
-            this.field_111052_c[i] = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + woodType[i]);
-            this.tree_top[i] = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + woodType[i] + "_top");
+            this.field_111052_c[i] = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
+            this.tree_top[i] = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)) + "_top");
         }
     }
 

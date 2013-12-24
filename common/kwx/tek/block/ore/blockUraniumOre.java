@@ -2,7 +2,7 @@ package kwx.tek.block.ore;
 
 import java.util.Random;
 
-import kwx.tek.ModMain;
+import kwx.tek.TekMain;
 import kwx.tek.block.AddedBlocks;
 import kwx.tek.lib.Reference;
 
@@ -18,7 +18,7 @@ public class blockUraniumOre extends Block {
 
 	public blockUraniumOre(int par1, Material par2Material) {
 		super(par1, par2Material);
-		this.setCreativeTab(ModMain.kwxCreativeTab);
+		this.setCreativeTab(TekMain.kwxCreativeTab);
 		this.setHardness(5.0F);
 		this.setResistance(10.0F);
 	}

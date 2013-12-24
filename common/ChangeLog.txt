@@ -3,3 +3,7 @@ Change Log
 -------V0.1-------
 
 Added Ores
+Now requires KWX Core
+Added ingots
+Added rubber tree
+Remove dev capes because of crashes with Optifine

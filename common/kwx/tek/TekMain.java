@@ -35,10 +35,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @NetworkMod(clientSideRequired = true, serverSideRequired = false, channels = "CHANNEL_NAME", packetHandler = tekPacketHandler.class)
 
-public class ModMain {
+public class TekMain {
 	
 	@Instance(Reference.MOD_ID)
-	public static ModMain instance;
+	public static TekMain instance;
 	
 	public static CreativeTabs kwxCreativeTab = new kwx.tek.creativeTab.kwxCreativeTab(CreativeTabs.getNextID(),"kwxMaterialsTab");
 	

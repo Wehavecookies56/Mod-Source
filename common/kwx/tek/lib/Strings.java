@@ -12,4 +12,6 @@ public class Strings {
 	public static final String rubberLog = "rubberLog";
 	public static final String rubberLeaves = "rubberLeaves";
 	public static final String rubberSapling = "rubberSapling";
+	public static final String ingotCopper = "ingotCopper";
+	public static final String ingotTin = "ingotTin";
 }

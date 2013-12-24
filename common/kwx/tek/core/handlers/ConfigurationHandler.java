@@ -35,6 +35,9 @@ public class ConfigurationHandler {
 			IDs.rubberLeaves = config.getBlock(Strings.rubberLeaves + " ID", IDs.RUBBERLEAVES_DEFAULT).getInt(IDs.RUBBERLEAVES_DEFAULT);
 			IDs.rubberSapling = config.getBlock(Strings.rubberSapling + " ID", IDs.RUBBERSAPLING_DEFAULT).getInt(IDs.RUBBERSAPLING_DEFAULT);
 			
+			//Ingots
+			IDs.ingotCopper = config.getItem(Strings.ingotCopper + " ID", IDs.INGOTCOPPER_DEFUALT).getInt(IDs.INGOTCOPPER_DEFUALT);
+			IDs.ingotTin = config.getItem(Strings.ingotTin + " ID", IDs.INGOTTIN_DEFAULT).getInt(IDs.INGOTTIN_DEFAULT);
 		}
 
 		catch(Exception e){

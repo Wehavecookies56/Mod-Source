@@ -2,6 +2,10 @@ package kwx.tek.lib;
 
 public class IDs {
 
+	//Ingots
+	public static int ingotCopper;
+	public static int ingotTin;
+	
 	//Ores
 	public static int copperOre;
 	public static int tinOre;
@@ -15,6 +19,11 @@ public class IDs {
 	public static int rubberLog;
 	public static int rubberLeaves;
 	public static int rubberSapling;
+	
+	
+	//Ingots
+	public static final int INGOTCOPPER_DEFUALT = 9876;
+	public static final int INGOTTIN_DEFAULT = 9878;
 	
 	//Ores
 	public static final int COPPERORE_DEFAULT = 1500;

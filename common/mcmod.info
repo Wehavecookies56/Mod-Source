@@ -1,20 +1,21 @@
 [
 {
-  "modid": "tek",
+  "modid": "Tek",
   "name": "Tek",
-  "description": "",
+  "description": "TODO",
   "version": "0.1",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "Wehavecookies56, Ohrm"
+    "Ohrm, Wehavecookies56"
   ],
-  "credits": "Wehavecookies56, Ohrm, Kaan Elva",
+  "credits": "Ohrm, Wehavecookies56, Kaan Elva",
   "logoFile": "",
   "screenshots": [
   ],
   "parent":"",
   "dependencies": [
+  "kwxCore"
   ]
 }
 ]

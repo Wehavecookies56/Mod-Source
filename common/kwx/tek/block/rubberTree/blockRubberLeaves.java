@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import kwx.tek.ModMain;
+import kwx.tek.TekMain;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLeavesBase;
@@ -37,7 +37,7 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
     {
         super(par1, Material.leaves, false);
         this.setTickRandomly(true);
-        this.setCreativeTab(ModMain.kwxCreativeTab);
+        this.setCreativeTab(TekMain.kwxCreativeTab);
         this.setStepSound(soundGrassFootstep);
         this.setHardness(0.2F);
     }

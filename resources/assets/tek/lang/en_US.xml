@@ -9,4 +9,9 @@
     <entry key="tile.uraniumOre.name">Uranium Ore</entry>
     <entry key="tile.titaniumOre.name">Titanium Ore</entry>
     <entry key="tile.platinumOre.name">Platinum Ore</entry>
+    <entry key="tile.rubberLog.name">Rubber Log</entry>
+    <entry key="tile.rubberLeaves.name">Rubber Leaves</entry>
+    <entry key="tile.rubberSapling.name">Rubber Sapling</entry>
+    <entry key="item.ingotCopper.name">Copper Ingot</entry>
+    <entry key="item.ingotTin.name">Tin Ingot</entry>
 </properties>
