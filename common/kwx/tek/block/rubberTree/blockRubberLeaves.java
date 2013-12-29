@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.Random;
 
 import kwx.tek.TekMain;
-
+import kwx.tek.block.AddedBlocks;
+import kwx.tek.lib.Reference;
+import kwx.tek.world.ColorizeLeaves;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLeavesBase;
 import net.minecraft.block.material.Material;
@@ -25,7 +27,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class blockRubberLeaves extends BlockLeavesBase implements IShearable
 {
     public static final String[] LEAF_TYPES = new String[] {"rubber"};
-    public static final String[][] field_94396_b = new String[][] {{"leaves_rubber"}, {"leaves_rubber_opaque"}};
+    public static final String[][] field_94396_b = new String[][] {{"leaves_rubber_opaque"}, {"leaves_rubber_opaque"}};
     @SideOnly(Side.CLIENT)
 
     /** 1 for fast graphic. 0 for fancy graphics. used in iconArray. */
@@ -42,23 +44,26 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
         this.setHardness(0.2F);
     }
 
-   // @SideOnly(Side.CLIENT)
-    //public int getBlockColor()
-    //{
-        //return ColorizeLeaves.getFoliageColor();
-    //}
+    @SideOnly(Side.CLIENT)
+    	public int getBlockColor()
+    	{
+        	return ColorizeLeaves.getFoliageColor();
+    	}
 
-    //@SideOnly(Side.CLIENT)
+  	@SideOnly(Side.CLIENT)
 
     /**
      * Returns the color this block should be rendered. Used by leaves.
      */
-   // public int getRenderColor(int par1)
-    //{
-    	//if((par1 & 3) == 0){
-        //return ColorizeLeaves.getFoliageColorRubber();
-    	//}
-    //}
+   	public int getRenderColor(int par1)
+    	{
+    		if((par1 & 3) == 0){
+        	return ColorizeLeaves.getFoliageColorRubber();
+    		}
+    		else{
+    			return ColorizeLeaves.getFoliageColorRubber();
+    		}
+    	}
 
     @SideOnly(Side.CLIENT)
 
@@ -70,10 +75,16 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
     {
         int l = par1IBlockAccess.getBlockMetadata(par2, par3, par4);
 
-        if ((l & 3) == 1)
+        if ((l & 3) == 0)
+        {
+            return ColorizeLeaves.getFoliageColorRubber();
+        }
+        
+        else if ((l & 3) == 1)
         {
             return ColorizerFoliage.getFoliageColorPine();
         }
+        
         else if ((l & 3) == 2)
         {
             return ColorizerFoliage.getFoliageColorBirch();
@@ -280,7 +291,7 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
      */
     public int idDropped(int par1, Random par2Random, int par3)
     {
-        return Block.sapling.blockID;
+        return AddedBlocks.rubberSapling.blockID;
     }
 
     /**
@@ -365,7 +376,7 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
      */
     public Icon getIcon(int par1, int par2)
     {
-        return (par2 & 3) == 1 ? this.iconArray[this.iconType][1] : ((par2 & 3) == 3 ? this.iconArray[this.iconType][3] : ((par2 & 3) == 2 ? this.iconArray[this.iconType][2] : this.iconArray[this.iconType][0]));
+    		return this.iconArray[this.iconType][0];
     }
 
     @SideOnly(Side.CLIENT)
@@ -387,9 +398,6 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
     public void getSubBlocks(int par1, CreativeTabs par2CreativeTabs, List par3List)
     {
         par3List.add(new ItemStack(par1, 1, 0));
-        par3List.add(new ItemStack(par1, 1, 1));
-        par3List.add(new ItemStack(par1, 1, 2));
-        par3List.add(new ItemStack(par1, 1, 3));
     }
 
     /**
@@ -415,7 +423,7 @@ public class blockRubberLeaves extends BlockLeavesBase implements IShearable
 
             for (int j = 0; j < field_94396_b[i].length; ++j)
             {
-                this.iconArray[i][j] = par1IconRegister.registerIcon(field_94396_b[i][j]);
+                this.iconArray[i][j] = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + field_94396_b[i][j]);
             }
         }
     }

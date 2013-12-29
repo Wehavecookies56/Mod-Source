@@ -14,4 +14,9 @@
     <entry key="tile.rubberSapling.name">Rubber Sapling</entry>
     <entry key="item.ingotCopper.name">Copper Ingot</entry>
     <entry key="item.ingotTin.name">Tin Ingot</entry>
+    <entry key="item.ingotTitanium.name">Titanium Ingot</entry>
+    <entry key="item.ingotPlatinum.name">Platinum Ingot</entry>
+    <entry key="item.ingotSteel.name">Steel Ingot</entry>
+    <entry key="item.ingotAluminium.name">Aluminium Ingot</entry>
+    <entry key="item.itemResin.name">Resin</entry>
 </properties>

@@ -14,4 +14,9 @@ public class Strings {
 	public static final String rubberSapling = "rubberSapling";
 	public static final String ingotCopper = "ingotCopper";
 	public static final String ingotTin = "ingotTin";
+	public static final String ingotAluminium = "ingotAluminium";
+	public static final String ingotTitanium = "ingotTitanium";
+	public static final String ingotPlatinum = "ingotPlatinum";
+	public static final String ingotSteel = "ingotSteel";
+	public static final String itemResin = "itemResin";
 }

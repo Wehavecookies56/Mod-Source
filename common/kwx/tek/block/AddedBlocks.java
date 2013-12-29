@@ -51,8 +51,8 @@ public class AddedBlocks {
 		//Rubber tree
 		
 		rubberLog = new blockRubberLog(IDs.rubberLog).setUnlocalizedName(Strings.rubberLog); GameRegistry.registerBlock(rubberLog, Strings.rubberLog);
-		//rubberLeaves = new blockRubberLeaves(IDs.rubberLeaves).setUnlocalizedName(Strings.rubberLeaves); GameRegistry.registerBlock(rubberLeaves, Strings.rubberLeaves);
-		//rubberSapling = new blockRubberSapling(IDs.rubberSapling).setUnlocalizedName(Strings.rubberSapling); GameRegistry.registerBlock(rubberSapling, Strings.rubberSapling);
+		rubberLeaves = new blockRubberLeaves(IDs.rubberLeaves).setUnlocalizedName(Strings.rubberLeaves); GameRegistry.registerBlock(rubberLeaves, Strings.rubberLeaves);
+		rubberSapling = new blockRubberSapling(IDs.rubberSapling).setUnlocalizedName(Strings.rubberSapling); GameRegistry.registerBlock(rubberSapling, Strings.rubberSapling);
 		
 	}
 }

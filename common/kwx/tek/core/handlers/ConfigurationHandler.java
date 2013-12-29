@@ -34,10 +34,16 @@ public class ConfigurationHandler {
 			IDs.rubberLog = config.getBlock(Strings.rubberLog + " ID", IDs.RUBBERLOG_DEFAULT).getInt(IDs.RUBBERLOG_DEFAULT);
 			IDs.rubberLeaves = config.getBlock(Strings.rubberLeaves + " ID", IDs.RUBBERLEAVES_DEFAULT).getInt(IDs.RUBBERLEAVES_DEFAULT);
 			IDs.rubberSapling = config.getBlock(Strings.rubberSapling + " ID", IDs.RUBBERSAPLING_DEFAULT).getInt(IDs.RUBBERSAPLING_DEFAULT);
+			IDs.itemResin = config.getItem(Strings.itemResin + " ID", IDs.ITEMRESIN_DEFAULT).getInt(IDs.ITEMRESIN_DEFAULT);
 			
 			//Ingots
 			IDs.ingotCopper = config.getItem(Strings.ingotCopper + " ID", IDs.INGOTCOPPER_DEFUALT).getInt(IDs.INGOTCOPPER_DEFUALT);
 			IDs.ingotTin = config.getItem(Strings.ingotTin + " ID", IDs.INGOTTIN_DEFAULT).getInt(IDs.INGOTTIN_DEFAULT);
+			IDs.ingotAluminium = config.getItem(Strings.ingotAluminium + " ID", IDs.ALUMINIUMORE_DEFAULT).getInt(IDs.INGOTALUMINIUM_DEFAULT);
+			IDs.ingotTitanium = config.getItem(Strings.ingotTitanium + " ID", IDs.INGOTTITANIUM_DEFAULT).getInt(IDs.INGOTTITANIUM_DEFAULT);
+			IDs.ingotPlatinum = config.getItem(Strings.ingotPlatinum + " ID", IDs.INGOTPLATINUM_DEFAULT).getInt(IDs.INGOTPLATINUM_DEFAULT);
+			IDs.ingotSteel = config.getItem(Strings.ingotSteel + " ID", IDs.INGOTSTEEL_DEFAULT).getInt(IDs.INGOTSTEEL_DEFAULT);
+			
 		}
 
 		catch(Exception e){

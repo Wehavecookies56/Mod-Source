@@ -2,8 +2,6 @@ package kwx.tek;
 
 import java.io.File;
 
-import universalelectricity.compatibility.Compatibility;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.Configuration;
@@ -15,6 +13,7 @@ import kwx.tek.core.handlers.LocalizationHandler;
 import kwx.tek.core.handlers.UpdateHandler;
 import kwx.tek.core.proxies.CommonProxy;
 import kwx.tek.event.EventManager;
+import kwx.tek.event.rubberBoneMeal;
 import kwx.tek.item.AddedItems;
 import kwx.tek.lib.Reference;
 import kwx.tek.packetHandler.*;
@@ -60,6 +59,7 @@ public class TekMain {
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event){
+		MinecraftForge.EVENT_BUS.register(new rubberBoneMeal());
 		GameRegistry.registerWorldGenerator(eventManager);
 		NetworkRegistry.instance().registerConnectionHandler(new UpdateHandler("Tek", Reference.MOD_VER, "http://pastebin.com/raw.php?i=8RJgb5FM"));		
 		proxy.registerRenderers();

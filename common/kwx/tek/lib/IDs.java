@@ -5,6 +5,10 @@ public class IDs {
 	//Ingots
 	public static int ingotCopper;
 	public static int ingotTin;
+	public static int ingotAluminium;
+	public static int ingotTitanium;
+	public static int ingotPlatinum;
+	public static int ingotSteel;
 	
 	//Ores
 	public static int copperOre;
@@ -19,11 +23,16 @@ public class IDs {
 	public static int rubberLog;
 	public static int rubberLeaves;
 	public static int rubberSapling;
+	public static int itemResin;
 	
 	
 	//Ingots
 	public static final int INGOTCOPPER_DEFUALT = 9876;
 	public static final int INGOTTIN_DEFAULT = 9878;
+	public static final int INGOTALUMINIUM_DEFAULT = 9879;
+	public static final int INGOTTITANIUM_DEFAULT = 9880;
+	public static final int INGOTPLATINUM_DEFAULT = 9881;
+	public static final int INGOTSTEEL_DEFAULT = 9882;
 	
 	//Ores
 	public static final int COPPERORE_DEFAULT = 1500;
@@ -38,5 +47,6 @@ public class IDs {
 	public static final int RUBBERLOG_DEFAULT = 1506;
 	public static final int RUBBERLEAVES_DEFAULT = 1507;
 	public static final int RUBBERSAPLING_DEFAULT = 1508;
+	public static final int ITEMRESIN_DEFAULT = 9883;
 	
 }

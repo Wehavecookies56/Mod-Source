@@ -3,7 +3,7 @@ package kwx.tek.event;
 import java.util.Random;
 
 import kwx.tek.block.AddedBlocks;
-
+import kwx.tek.world.RubberWorldGenTrees;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
@@ -33,8 +33,17 @@ public class EventManager implements IWorldGenerator {
     private void generateSurface(World world, Random random, int x, int z)
     {
     	
+    	//Gen ores
     	this.addOreSpawn(AddedBlocks.copperOre, world, random, x, z, 16, 16, 5 + random.nextInt(5), 20, 24, 64);
     	
+    	//Gen tree
+    	for(int t = 0; t < 15; t++){
+    		int chunkX = x + random.nextInt(16);
+    		int chunkY = random.nextInt(90);
+    		int chunkZ = z + random.nextInt(16);
+    		
+    		(new RubberWorldGenTrees(false, 5, 0, 0, false)).generate(world, random, chunkX, chunkY, chunkZ);
+    	}
     }
 
     private void generateNether(World world, Random random, int x, int z)
